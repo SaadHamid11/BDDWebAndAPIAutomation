@@ -11,7 +11,7 @@ For this assignment, Java version 1.8 and Maven version 3.8.1 is used.
 Getting Code from GitHub
 
 Clone project from following URL
-https://github.com/SaadHamid11/TestRepository.git
+https://github.com/SaadHamid11/TestAssignment.git
 
 Executing Scripts from Command Line
 
