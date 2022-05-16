@@ -21,4 +21,4 @@ Feature: Search Old car feature
 
     Examples: 
       | Keyword | Make  | Model | Body  | NumberPlate | Kilometers | Seats |
-      | KJNPL   | Honda | Civic | Sedan | KJNPL       | 9,300km    |     5 |
+      | MCA84   | Honda | Civic | Sedan | MCA84       | 28,523km   |     5 |

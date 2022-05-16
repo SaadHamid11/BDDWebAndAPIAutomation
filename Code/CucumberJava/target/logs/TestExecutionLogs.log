@@ -1,0 +1,72 @@
+19:07:44.616 [main] INFO  stepdefinitions.RestAPI.CreateListingSteps - Test Execution started_ "user provide valid keys"
+19:07:44.619 [main] DEBUG stepdefinitions.RestAPI.CreateListingSteps - About to get payload from SellingListHelper class
+19:07:44.620 [main] DEBUG utilities.APIHelpers.Serialization.SellingListHelper - About to add Shipping options from Selling Payload Constants class in Shipping option list
+19:07:44.621 [main] INFO  utilities.APIHelpers.Serialization.SellingListHelper - Shipping options list is created
+19:07:44.621 [main] DEBUG utilities.APIHelpers.Serialization.SellingListHelper - About to add Description from Selling Payload Constants class in description list
+19:07:44.621 [main] INFO  utilities.APIHelpers.Serialization.SellingListHelper - Description list is created
+19:07:44.622 [main] DEBUG utilities.APIHelpers.Serialization.SellingListHelper - About to add Payment Method from Selling Payload Constants class in Payment Method list
+19:07:44.622 [main] INFO  utilities.APIHelpers.Serialization.SellingListHelper - Payment method list is created
+19:07:44.622 [main] DEBUG utilities.APIHelpers.Serialization.SellingListHelper - About to initialize SellingList with providing all paramters in constructor
+19:07:44.622 [main] INFO  utilities.APIHelpers.Serialization.SellingListHelper - SellingList is initialized
+19:07:44.622 [main] DEBUG utilities.APIHelpers.Serialization.SellingListHelper - About to use GSON to Serialize SellingList object into a JSON string payload.
+19:07:44.677 [main] INFO  utilities.APIHelpers.Serialization.SellingListHelper - JSON String payload is created
+19:07:44.677 [main] INFO  stepdefinitions.RestAPI.CreateListingSteps - Payload: {"Category":2273,"Title":"ABC","Subtitle":"ABC","Description":["ABC","ABC"],"StartPrice":123.0,"ReservedPrice":123.0,"BuyNowPrice":123.0,"Duration":10,"Pickup":1,"ShippingOptions":[{"Type":1,"Price":123.0,"Method":"\"ABC\"","ShippingId":123},{"Type":1,"Price":123.0,"Method":"\"ABC\"","ShippingId":123}],"PaymentMethods":[1,1]}
+19:07:44.677 [main] DEBUG stepdefinitions.RestAPI.CreateListingSteps - About to get class name as String
+19:07:44.677 [main] DEBUG stepdefinitions.RestAPI.CreateListingSteps - About to build a Request Specification with passing class name as parameter
+19:07:44.678 [main] DEBUG utilities.APIHelpers.specifications.Specifications - About to construct Request specification using className to create specific API Request and Response Log file
+19:07:45.237 [main] DEBUG utilities.Common - Getting log file path for CreateListingSteps
+19:07:45.238 [main] INFO  utilities.Common - Log file created for CreateListingSteps
+19:07:45.240 [main] DEBUG utilities.Common - Getting log file path for CreateListingSteps
+19:07:45.240 [main] INFO  utilities.Common - Log file created for CreateListingSteps
+19:07:45.245 [main] INFO  utilities.APIHelpers.specifications.Specifications - Request Specification created. API logs for both Request and Response will be added in CreateListingSteps_log file
+19:07:45.245 [main] DEBUG stepdefinitions.RestAPI.CreateListingSteps - About to build a Response Specifications with providing Authentication token, content type and body
+19:07:45.521 [main] INFO  stepdefinitions.RestAPI.CreateListingSteps - Response Specifications created with all parameters, payloads and content type
+19:07:45.547 [main] INFO  stepdefinitions.RestAPI.CreateListingSteps - Test execution started _ "user sends post request on "
+19:07:45.547 [main] DEBUG stepdefinitions.RestAPI.CreateListingSteps - About to send post request on endpoint: https://api.tmsandbox.co.nz/v1/Selling.json
+19:07:45.547 [main] INFO  stepdefinitions.RestAPI.CreateListingSteps - For details related to API request, refer CreateListingSteps_logs.txt file
+19:07:49.533 [main] INFO  stepdefinitions.RestAPI.CreateListingSteps - Response is created with sending post request on endpoint: https://api.tmsandbox.co.nz/v1/Selling.json
+19:07:49.534 [main] INFO  stepdefinitions.RestAPI.CreateListingSteps - Test execution started _ "api_responds_with " 
+19:07:49.534 [main] DEBUG stepdefinitions.RestAPI.CreateListingSteps - About to Assert status code with expected status code: 200 and extracting response as a String
+19:07:49.559 [main] INFO  stepdefinitions.RestAPI.CreateListingSteps - Status code: 200 is asserted sucessfully
+19:07:49.560 [main] DEBUG stepdefinitions.RestAPI.CreateListingSteps - About to get Listing ID from JSON response: {
+    "Success": true,
+    "Description": "ListingId 2149418151 created.",
+    "ListingId": 2149418151
+}
+19:07:49.560 [main] DEBUG utilities.Common - Creating JSON path object to read values from JSON String
+19:07:50.166 [main] INFO  utilities.Common - Value:2149418151 is retrieved for key: ListingId
+19:07:50.166 [main] INFO  stepdefinitions.RestAPI.CreateListingSteps - Listing id retrieved: 2149418151
+19:07:50.166 [main] DEBUG stepdefinitions.RestAPI.CreateListingSteps - About to get Description from JSON response: {
+    "Success": true,
+    "Description": "ListingId 2149418151 created.",
+    "ListingId": 2149418151
+}
+19:07:50.166 [main] DEBUG utilities.Common - Creating JSON path object to read values from JSON String
+19:07:50.211 [main] INFO  utilities.Common - Value:ListingId 2149418151 created. is retrieved for key: Description
+19:07:50.212 [main] INFO  stepdefinitions.RestAPI.CreateListingSteps - Description retrieved: ListingId 2149418151 created.
+19:07:50.212 [main] DEBUG stepdefinitions.RestAPI.CreateListingSteps - About to perform Assertion of expected message: ListingId 2149418151 created. with actual message: ListingId 2149418151 created.
+19:07:50.239 [main] DEBUG stepdefinitions.RestAPI.SearchCharitiesSteps - About to start Test execution of : SearchCharityFunctionality
+19:07:50.239 [main] DEBUG stepdefinitions.RestAPI.SearchCharitiesSteps - About to create Request Specification with URI and class name
+19:07:50.239 [main] DEBUG utilities.APIHelpers.specifications.Specifications - About to construct Request specification with https://api.tmsandbox.co.nz/ and using className to create specific API Request and Response Log file
+19:07:50.240 [main] DEBUG utilities.Common - Getting log file path for SearchCharitiesSteps
+19:07:50.241 [main] INFO  utilities.Common - Log file created for SearchCharitiesSteps
+19:07:50.241 [main] DEBUG utilities.Common - Getting log file path for SearchCharitiesSteps
+19:07:50.241 [main] INFO  utilities.Common - Log file created for SearchCharitiesSteps
+19:07:50.243 [main] INFO  utilities.APIHelpers.specifications.Specifications - Request Specification created. API logs for both Request and Response will be added in SearchCharitiesSteps_log file
+19:07:50.244 [main] INFO  stepdefinitions.RestAPI.SearchCharitiesSteps - Request Specification is created
+19:07:50.245 [main] DEBUG stepdefinitions.RestAPI.SearchCharitiesSteps - About to send Get Request on endpoint: /v1/Charities.json
+19:07:51.827 [main] INFO  stepdefinitions.RestAPI.SearchCharitiesSteps - Response is created with all parameters and Get request 
+19:07:51.828 [main] DEBUG stepdefinitions.RestAPI.SearchCharitiesSteps - About to validate API status code with expected status code: 200
+19:07:51.830 [main] DEBUG stepdefinitions.RestAPI.SearchCharitiesSteps - About to get list of charities from CharityListHelper class
+19:07:51.830 [main] DEBUG utilities.APIHelpers.DeSerialization.CharityListHelper - About to Deserialize JSON response to CharitiesList class
+19:07:52.012 [main] DEBUG utilities.APIHelpers.DeSerialization.CharityListHelper - About to add Charities list description in list of charities
+19:07:52.012 [main] INFO  utilities.APIHelpers.DeSerialization.CharityListHelper - Save the Kiwi is added in list of charities
+19:07:52.012 [main] DEBUG utilities.APIHelpers.DeSerialization.CharityListHelper - About to add Charities list description in list of charities
+19:07:52.012 [main] INFO  utilities.APIHelpers.DeSerialization.CharityListHelper - Plunket is added in list of charities
+19:07:52.012 [main] DEBUG utilities.APIHelpers.DeSerialization.CharityListHelper - About to add Charities list description in list of charities
+19:07:52.012 [main] INFO  utilities.APIHelpers.DeSerialization.CharityListHelper - St John is added in list of charities
+19:07:52.013 [main] DEBUG utilities.APIHelpers.DeSerialization.CharityListHelper - About to add Charities list description in list of charities
+19:07:52.013 [main] INFO  utilities.APIHelpers.DeSerialization.CharityListHelper - Our People, Our City Fund is added in list of charities
+19:07:52.013 [main] INFO  stepdefinitions.RestAPI.SearchCharitiesSteps - Charities name are displayed and added in list
+19:07:52.014 [main] DEBUG stepdefinitions.RestAPI.SearchCharitiesSteps - About to validate that list contains St John charity
+19:07:52.014 [main] INFO  stepdefinitions.RestAPI.SearchCharitiesSteps - St John is available in Charitylist description

@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class MotorPageConstants {
 	
-	
+	//region Fields
 	private static By oldMotorsLocator = By.xpath(".//tg-tab-heading[text()=' Used ']");
 	private static By keywordsLocator = By.xpath(".//input[@name='keyword']");
 	private static By makeDropDownLocator = By.xpath(".//select[@name='selectedMake']");
@@ -14,11 +14,11 @@ public class MotorPageConstants {
 	private static By searchButtonLocator = By.xpath(".//button[@type='submit']");
 	private static By searchResultsContainer = By.xpath(".//div[@class='tm-motors-search-results__results-container']");
 	private static By carTitlesLocator = By.xpath(".//div[@tmid='title']");
+	//endregion
 	
 	
 	
-	
-	
+	//region Methods
 	//Getters for All Locators
 	public static By getOldMotorsLocator() {
 		return oldMotorsLocator;
@@ -45,7 +45,7 @@ public class MotorPageConstants {
 	public static By getSearchResultsContainer() {
 		return searchResultsContainer;
 	}
-	
+	//endregion
 	
 	
 	

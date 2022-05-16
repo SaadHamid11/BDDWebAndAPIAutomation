@@ -1,9 +1,10 @@
 C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\utilities\APIHelpers\DeSerialization\CharityListHelper.java
 C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\pages\automobiles\MotorPageConstants.java
 C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\pages\homepage\HomePageConstants.java
+C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\utilities\APIHelpers\specifications\Specifications.java
 C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\utilities\Common.java
 C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\factory\DriverFactory.java
-C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\Pojo\ShippingOptions.java
+C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\pojo\ShippingOptions.java
 C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\pages\searchresults\SearchResultConstants.java
 C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\payloads\SellingPayloadConstants.java
 C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\utilities\ConfigConstants.java
@@ -11,7 +12,7 @@ C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\utilities\BrowserEn
 C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\utilities\ConfigReader.java
 C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\pages\homepage\HomePageHelper.java
 C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\pages\automobiles\MotorPageHelper.java
-C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\Pojo\SellingList.java
-C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\Pojo\CharitiesList.java
+C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\pojo\SellingList.java
+C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\pojo\CharitiesList.java
 C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\pages\searchresults\SearchResultHelper.java
 C:\Users\shamid\eclipse-workspace\CucumberJava\src\main\java\utilities\APIHelpers\Serialization\SellingListHelper.java

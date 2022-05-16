@@ -5,12 +5,13 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-
-
 public class ConfigReader {
+	// region Fields
 	private Properties properties;
 	private Properties apiProperties;
-	
+	// endregion
+
+	// region Methods
 	public Properties initializeProperties() {
 		properties = new Properties();
 		String path = "./src/test/resources/Config/config.properties";
@@ -24,11 +25,10 @@ public class ConfigReader {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		return properties;
 	}
-	
-	
+
 	public Properties initializerAPIProperties() {
 		apiProperties = new Properties();
 		String path = "./src/test/resources/DataProvider/ApiData.properties";
@@ -43,8 +43,8 @@ public class ConfigReader {
 			e.printStackTrace();
 		}
 		return apiProperties;
-		
+
 	}
-	
-	
+	// endregion
+
 }
