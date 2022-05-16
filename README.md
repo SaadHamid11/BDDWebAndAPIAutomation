@@ -3,8 +3,10 @@ Test assignment to automate Web and API Tests using Java, Selenium RestAssured a
 
 Environment Prerequisites
 Before starting the execution of script, please ensure, that environment is configured with 
-•	Java 1.8 
-•	Maven 
+•	Java 
+•	Maven. 
+
+Java JDK path should be configured in Environment variables.
 For this assignment, Java version 1.8 and Maven version 3.8.1 is used.
 
 
