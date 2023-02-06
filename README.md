@@ -1,5 +1,5 @@
-# TestAssignment
-Test assignment to automate Web and API Tests using Java, Selenium RestAssured and Cucumber
+# BDD API and WebAutomation
+Sample project to automate Web and API Tests using Java, Selenium RestAssured and Cucumber
 
 Environment Prerequisites
 Before starting the execution of script, please ensure, that environment is configured with 
